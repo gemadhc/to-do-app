@@ -1,0 +1,56 @@
+.header{
+  height: 15vh;
+  background-color: black;
+}
+h1{
+  padding: 0;
+  margin: 0;
+}
+h3{
+  background-color: grey;
+  width: 20vw;
+  margin: 0;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  font-size: 5vh;
+}
+.add-new-item{
+  height: 10vh;
+}
+.items-display{
+  height:50vh;
+
+}
+
+.add-new-item, .title-display{
+  height: 10vh;
+}
+.add-new-item{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-space-between;
+}
+
+.footer{
+  height: 15vh;
+  background-color: black;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  margin: 0;
+  padding: 0;
+}
+input{
+  width: 80vw;
+  margin: 0;
+  padding: 0;
+}
