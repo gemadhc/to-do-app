@@ -12,9 +12,17 @@ function show_text(){
 
   //append new task to list
   var list = document.querySelector(".task-list");
-  var new_task = document.createElement("li");
-  new_task.innerHTML = string;
-  list.append(new_task);
+  var list_item = document.createElement("li");
+  var new_task = document.createElement("input");
+  var task_name = document.createElement("h4");
+  task_name.innerHTML = string;
+  task_name.classList.add("task-name");
+  new_task.setAttribute("type", "checkbox");
+  new_task.classList.add("check");
+
+  list_item.append(new_task);
+  list_item.append(task_name);
+  list.append(list_item);
   string ="";
   get_text.value = ""
 }

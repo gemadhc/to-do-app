@@ -48,9 +48,20 @@ ul{
 li{
   margin: 0;
   padding: 0;
+  width: 50vw;
 }
 input{
   width: 80vw;
   margin: 0;
   padding: 0;
+}
+
+.check{
+  width: 5vw;
+  display:inline;
+}
+.task-name{
+  display: inline;
+  font-size: 2vh;
+
 }
